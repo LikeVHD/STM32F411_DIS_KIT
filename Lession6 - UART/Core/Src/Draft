@@ -1,0 +1,48 @@
+Draft
+ Created on: Mar 6, 2023
+     Author: Administrator
+     
+     
+; Define the USART2 registers
+USART2_BASE	EQU	0x40004400
+USART2_SR	EQU	USART2_BASE + 0x00
+USART2_DR	EQU	USART2_BASE + 0x04
+
+; Define the NVIC registers
+NVIC_BASE	EQU	0xE000E100
+NVIC_ISER	EQU	NVIC_BASE + 0x000
+
+; Define the interrupt handler function
+USART2_IRQHandler:
+    LDRB    R0, [USART2_DR] ; Load the received data into R0
+    ; Your code to handle the received data here
+    BX      LR              ; Return from the interrupt
+
+; Initialize the USART2
+    LDR     R0, =RCC_BASE   ; Load the address of RCC_BASE into R0
+    LDR     R1, [R0, #0x30] ; Load the RCC_APB1ENR register into R1
+    ORR     R1, R1, #0x2000 ; Set bit 17 to enable USART2 clock
+    STR     R1, [R0, #0x30] ; Store the updated RCC_APB1ENR register
+    LDR     R0, =USART2_BASE ; Load the address of USART2_BASE into R0
+    MOV     R1, #0x008D     ; Set the USART2 configuration (115200 baud, 8N1)
+    STRH    R1, [R0, #0x0C] ; Store the USART2_CR1 register
+    STR     R1, [R0, #0x08] ; Store the USART2_CR2 register
+    STR     R1, [R0, #0x0C] ; Store the USART2_CR3 register
+    LDR     R1, =USART2_IRQHandler ; Load the address of the interrupt handler into R1
+    LDR     R2, =NVIC_ISER  ; Load the address of NVIC_ISER into R2
+    MOV     R3, #38        ; Set the USART2 interrupt number to 38
+    LSL     R3, R3, #2     ; Multiply the interrupt number by 4 to get the offset
+    STR     R1, [R2, R3]   ; Enable the USART2 interrupt
+
+; Enable USART2 reception
+    LDR     R0, =USART2_BASE ; Load the address of USART2_BASE into R0
+    LDRB    R1, [R0, #0x0D] ; Load the USART2_CR1 register into R1
+    ORR     R1, R1, #0x0020 ; Set the bit 5 to enable USART2 reception
+    STRB    R1, [R0, #0x0D] ; Store the updated USART2_CR1 register
+
+; Wait for USART2 data
+    WAIT:
+        LDRB    R1, [USART2_SR] ; Load the USART2_SR register into R1
+        TST     R1, #0x0020     ; Test the RXNE (receive buffer not empty) bit
+        BEQ     WAIT            ;
+     

@@ -1,0 +1,10 @@
+16:07:19 **** Incremental Build of configuration Debug for project lession1 ****
+make -j2 all 
+arm-none-eabi-size   lession1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5180	     20	   1572	   6772	   1a74	lession1.elf
+Finished building: default.size.stdout
+ 
+
+16:07:19 Build Finished. 0 errors, 0 warnings. (took 221ms)
+

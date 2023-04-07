@@ -1,0 +1,7 @@
+../Core/Src/main.c:61:6:SysTick_Handler	4	static
+../Core/Src/main.c:66:6:sysTick_Init	16	static
+../Core/Src/main.c:75:6:custom_Delay	16	static
+../Core/Src/main.c:81:6:Custom_SPI_Init	24	static
+../Core/Src/main.c:119:9:Custom_SPI_Sensor_Read	24	static
+../Core/Src/main.c:143:6:Custom_SPI_Sensor_Write	24	static
+../Core/Src/main.c:172:5:main	16	static
