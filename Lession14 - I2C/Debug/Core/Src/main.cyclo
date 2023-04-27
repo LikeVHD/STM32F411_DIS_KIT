@@ -1,0 +1,7 @@
+main.c:60:6:i2c_Init	1
+main.c:87:6:i2c_Write	5
+main.c:108:9:i2c_Read	7
+main.c:143:5:main	1
+main.c:192:6:SystemClock_Config	3
+main.c:234:13:MX_GPIO_Init	1
+main.c:250:6:Error_Handler	1
