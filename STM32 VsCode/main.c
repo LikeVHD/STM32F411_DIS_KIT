@@ -6,7 +6,6 @@
  */
 
 #include <stdint.h>
-#include "main.h"
 
 //-------------------------------------------------------------
 // DINH NGHIA CAC LED TREN CHAN PD12, PD13, PD14, PD15
@@ -22,6 +21,25 @@
 #define GPIOD_MODER		(*((uint32_t*)(0x40020C00 | 0x00)))	// GPIO port D mode select register
 #define GPIOD_OTYPER	(*((uint32_t*)(0x40020C00 | 0x04)))	// GPIO port D output type register
 #define GPIOD_ODR		(*((uint32_t*)(0x40020C00 | 0x14)))	// GPIO port D output data register
+
+uint32_t systick_cnt = 0;
+void SysTick_Handler()
+{
+	systick_cnt++;
+}
+void system_tick_init()
+{
+	uint32_t* CSR = (uint32_t* )0xe000e010;
+	uint32_t* RVR = (uint32_t* )0xe000e014;
+
+	*RVR = 15999;
+	*CSR |= (1<<1)|(1<<0)|(1<<2);
+}
+
+void SystemInit()
+{
+	
+}
 
 /**
  *@brief: Set clock 100MHz for system use PLL.
@@ -48,11 +66,7 @@ void clock_Init()
 	*RCC_PLLCFGR |= (5U << 24U);	// PLLQ division 5
 
 	*RCC_CR |= 1U << 24U;			// PLL enable
-//	while (((*RCC_CR >> 25) & 1));	// Wait until PLL clock ready flag
-
 	*RCC_CFGR |= 4U << 10U;			// Set APB Low speed pre-scaler (APB1) = 50MHz
-
-//	*RCC_CFGR |= 0x02;				// Select PLL as system clock
 
 	/*
 		 * Set number of wait states according to CPU clock (HCLK) frequency
@@ -61,7 +75,7 @@ void clock_Init()
 		uint32_t* FLASH_ACR = (uint32_t*)0x40023c00;
 		*FLASH_ACR |= (3U << 0U);
 
-		const unsigned char clock_sw = 0b10;
+		const unsigned char clock_sw = 0b10;	
 		*RCC_CFGR |= clock_sw;					//select PLL as system clock
 		while((*RCC_CFGR & clock_sw) != clock_sw);
 
@@ -107,3 +121,4 @@ int main (void)
 
 	return 0;
 }
+;

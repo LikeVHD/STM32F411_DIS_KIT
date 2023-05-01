@@ -1,0 +1,515 @@
+
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Embedded Programming STM32CubeIDE\workspace_1.11.2\STM32 VsCode> get-help *
+
+Name                              Category  Synopsis
+----                              --------  --------
+ac                                Alias     Add-Content
+asnp                              Alias     Add-PSSnapin
+clc                               Alias     Clear-Content
+cli                               Alias     Clear-Item
+clp                               Alias     Clear-ItemProperty
+clv                               Alias     Clear-Variable
+compare                           Alias     Compare-Object
+cpi                               Alias     Copy-Item
+cpp                               Alias     Copy-ItemProperty
+cvpa                              Alias     Convert-Path
+dbp                               Alias     Disable-PSBreakpoint
+diff                              Alias     Compare-Object
+ebp                               Alias     Enable-PSBreakpoint
+epal                              Alias     Export-Alias
+epcsv                             Alias     Export-Csv
+fc                                Alias     Format-Custom
+fl                                Alias     Format-List
+foreach                           Alias     ForEach-Object
+%                                 Alias     ForEach-Object
+ft                                Alias     Format-Table
+fw                                Alias     Format-Wide
+gal                               Alias     Get-Alias
+gbp                               Alias     Get-PSBreakpoint
+gc                                Alias     Get-Content
+gci                               Alias     Get-ChildItem
+gcm                               Alias     Get-Command
+gdr                               Alias     Get-PSDrive
+gcs                               Alias     Get-PSCallStack
+ghy                               Alias     Get-History
+gi                                Alias     Get-Item
+gl                                Alias     Get-Location
+gm                                Alias     Get-Member
+gmo                               Alias     Get-Module
+gp                                Alias     Get-ItemProperty
+gps                               Alias     Get-Process
+group                             Alias     Group-Object
+gsv                               Alias     Get-Service
+gsnp                              Alias     Get-PSSnapin
+gu                                Alias     Get-Unique
+gv                                Alias     Get-Variable
+gwmi                              Alias     Get-WmiObject
+iex                               Alias     Invoke-Expression
+ihy                               Alias     Invoke-History
+ii                                Alias     Invoke-Item
+ipmo                              Alias     Import-Module
+iwmi                              Alias     Invoke-WmiMethod
+ipal                              Alias     Import-Alias
+ipcsv                             Alias     Import-Csv
+measure                           Alias     Measure-Object
+mi                                Alias     Move-Item
+mp                                Alias     Move-ItemProperty
+nal                               Alias     New-Alias
+ndr                               Alias     New-PSDrive
+ni                                Alias     New-Item
+nv                                Alias     New-Variable
+nmo                               Alias     New-Module
+oh                                Alias     Out-Host
+ogv                               Alias     Out-GridView
+ise                               Alias     powershell_ise.exe
+rbp                               Alias     Remove-PSBreakpoint
+rdr                               Alias     Remove-PSDrive
+ri                                Alias     Remove-Item
+rni                               Alias     Rename-Item
+rnp                               Alias     Rename-ItemProperty
+rp                                Alias     Remove-ItemProperty
+rmo                               Alias     Remove-Module
+rsnp                              Alias     Remove-PSSnapin
+rv                                Alias     Remove-Variable
+rwmi                              Alias     Remove-WmiObject
+rvpa                              Alias     Resolve-Path
+sal                               Alias     Set-Alias
+sasv                              Alias     Start-Service
+sbp                               Alias     Set-PSBreakpoint
+sc                                Alias     Set-Content
+select                            Alias     Select-Object
+si                                Alias     Set-Item
+sl                                Alias     Set-Location
+swmi                              Alias     Set-WmiInstance
+sleep                             Alias     Start-Sleep
+sort                              Alias     Sort-Object
+sp                                Alias     Set-ItemProperty
+saps                              Alias     Start-Process
+start                             Alias     Start-Process
+spps                              Alias     Stop-Process
+spsv                              Alias     Stop-Service
+sv                                Alias     Set-Variable
+tee                               Alias     Tee-Object
+where                             Alias     Where-Object
+?                                 Alias     Where-Object
+write                             Alias     Write-Output
+cat                               Alias     Get-Content
+cd                                Alias     Set-Location
+clear                             Alias     Clear-Host
+cp                                Alias     Copy-Item
+h                                 Alias     Get-History
+history                           Alias     Get-History
+kill                              Alias     Stop-Process
+lp                                Alias     Out-Printer
+ls                                Alias     Get-ChildItem
+man                               Alias     help
+mount                             Alias     New-PSDrive
+md                                Alias     mkdir
+mv                                Alias     Move-Item
+popd                              Alias     Pop-Location
+ps                                Alias     Get-Process
+pushd                             Alias     Push-Location
+pwd                               Alias     Get-Location
+r                                 Alias     Invoke-History
+rm                                Alias     Remove-Item
+rmdir                             Alias     Remove-Item
+echo                              Alias     Write-Output
+cls                               Alias     Clear-Host
+chdir                             Alias     Set-Location
+copy                              Alias     Copy-Item
+del                               Alias     Remove-Item
+dir                               Alias     Get-ChildItem
+erase                             Alias     Remove-Item
+move                              Alias     Move-Item
+rd                                Alias     Remove-Item
+ren                               Alias     Rename-Item
+set                               Alias     Set-Variable
+type                              Alias     Get-Content
+icm                               Alias     Invoke-Command
+clhy                              Alias     Clear-History
+gjb                               Alias     Get-Job
+rcjb                              Alias     Receive-Job
+rjb                               Alias     Remove-Job
+sajb                              Alias     Start-Job
+spjb                              Alias     Stop-Job
+wjb                               Alias     Wait-Job
+nsn                               Alias     New-PSSession
+gsn                               Alias     Get-PSSession
+rsn                               Alias     Remove-PSSession
+ipsn                              Alias     Import-PSSession
+epsn                              Alias     Export-PSSession
+etsn                              Alias     Enter-PSSession
+exsn                              Alias     Exit-PSSession
+prompt                            Function  prompt ...
+TabExpansion                      Function  TabExpansion [[-line] <Object>] [[-lastWord] <Object>]...
+Clear-Host                        Function  Clear-Host ...
+more                              Function  more [[-paths] <String[]>]...
+help                              Function
+mkdir                             Function
+Disable-PSRemoting                Cmdlet    Prevents the computer from receiving remote Windows PowerShell commands.
+Get-Verb                          Function  Get-Verb [[-verb] <String[]>] [-Verbose] [-Debug] [-ErrorAction <ActionPreference>] [-WarningAc...
+A:                                Function  A: ...
+B:                                Function  B: ...
+C:                                Function  C: ...
+D:                                Function  D: ...
+E:                                Function  E: ...
+F:                                Function  F: ...
+G:                                Function  G: ...
+H:                                Function  H: ...
+I:                                Function  I: ...
+J:                                Function  J: ...
+K:                                Function  K: ...
+L:                                Function  L: ...
+M:                                Function  M: ...
+N:                                Function  N: ...
+O:                                Function  O: ...
+P:                                Function  P: ...
+Q:                                Function  Q: ...
+R:                                Function  R: ...
+S:                                Function  S: ...
+T:                                Function  T: ...
+U:                                Function  U: ...
+V:                                Function  V: ...
+W:                                Function  W: ...
+X:                                Function  X: ...
+Y:                                Function  Y: ...
+Z:                                Function  Z: ...
+cd..                              Function  cd.. ...
+cd\                               Function  cd\ ...
+ImportSystemModules               Function  ImportSystemModules ...
+Get-WinEvent                      Cmdlet    Gets events from event logs and event tracing log files on local and remote computers.
+Get-Counter                       Cmdlet    Gets performance counter data from local and remote computers.
+Import-Counter                    Cmdlet    Imports performance counter log files (.blg, .csv, .tsv) and creates the objects that represent...
+Export-Counter                    Cmdlet    The Export-Counter cmdlet takes PerformanceCounterSampleSet objects and exports them as counter...
+Disable-WSManCredSSP              Cmdlet    Disables Credential Security Service Provider (CredSSP) authentication on a client computer.
+Enable-WSManCredSSP               Cmdlet    Enables Credential Security Service Provider (CredSSP) authentication on a client computer.
+Get-WSManCredSSP                  Cmdlet    Gets the Credential Security Service Provider-related configuration for the client.
+Set-WSManQuickConfig              Cmdlet    Configures the local computer for remote management.
+Test-WSMan                        Cmdlet    Tests whether the WinRM service is running on a local or remote computer.
+Invoke-WSManAction                Cmdlet    Invokes an action on the object that is specified by the Resource URI and by the selectors.
+Connect-WSMan                     Cmdlet    Connects to the WinRM service on a remote computer.
+Disconnect-WSMan                  Cmdlet    Disconnects the client from the WinRM service on a remote computer.
+Get-WSManInstance                 Cmdlet    Displays management information for a resource instance specified by a Resource URI.
+Set-WSManInstance                 Cmdlet    Modifies the management information that is related to a resource.
+Remove-WSManInstance              Cmdlet    Deletes a management resource instance.
+New-WSManInstance                 Cmdlet    Creates a new instance of a management resource.
+New-WSManSessionOption            Cmdlet    Creates a WS-Management session option hash table to use as input parameters to the following W...
+Get-Command                       Cmdlet    Gets basic information about cmdlets and other elements of Windows PowerShell commands.
+Get-Help                          Cmdlet    Displays information about Windows PowerShell commands and concepts.
+Get-History                       Cmdlet    Gets a list of the commands entered during the current session.
+Invoke-History                    Cmdlet    Runs commands from the session history.
+Add-History                       Cmdlet    Appends entries to the session history.
+Clear-History                     Cmdlet    Deletes entries from the command history.
+Register-PSSessionConfiguration   Cmdlet    Creates and registers a new session configuration.
+Unregister-PSSessionConfiguration Cmdlet    Deletes registered session configurations from the computer.
+Get-PSSessionConfiguration        Cmdlet    Gets the registered session configurations on the computer.
+Set-PSSessionConfiguration        Cmdlet    Changes the properties of a registered session configuration.
+Enable-PSSessionConfiguration     Cmdlet    Enables the session configurations on the local computer.
+Disable-PSSessionConfiguration    Cmdlet    Denies access to the session configurations on the local computer.
+Enable-PSRemoting                 Cmdlet    Configures the computer to receive remote commands.
+Invoke-Command                    Cmdlet    Runs commands on local and remote computers.
+New-PSSession                     Cmdlet    Creates a persistent connection to a local or remote computer.
+Get-PSSession                     Cmdlet    Gets the Windows PowerShell sessions (PSSessions) in the current session.
+Remove-PSSession                  Cmdlet    Closes one or more Windows PowerShell sessions (PSSessions).
+Start-Job                         Cmdlet    Starts a Windows PowerShell background job.
+Get-Job                           Cmdlet    Gets Windows PowerShell background jobs that are running in the current session.
+Receive-Job                       Cmdlet    Gets the results of the Windows PowerShell background jobs in the current session.
+Stop-Job                          Cmdlet    Stops a Windows PowerShell background job.
+Wait-Job                          Cmdlet    Suppresses the command prompt until one or all of the Windows PowerShell background jobs runnin...
+Remove-Job                        Cmdlet    Deletes a Windows PowerShell background job.
+Enter-PSSession                   Cmdlet    Starts an interactive session with a remote computer.
+Exit-PSSession                    Cmdlet    Ends an interactive session with a remote computer.
+New-PSSessionOption               Cmdlet    Creates an object that contains advanced options for a PSSession.
+ForEach-Object                    Cmdlet    Performs an operation against each of a set of input objects.
+Where-Object                      Cmdlet    Creates a filter that controls which objects will be passed along a command pipeline.
+Set-PSDebug                       Cmdlet    Turns script debugging features on and off, sets the trace level, and toggles strict mode.
+Set-StrictMode                    Cmdlet    Establishes and enforces coding rules in expressions, scripts, and script blocks.
+New-Module                        Cmdlet    Creates a new dynamic module that exists only in memory.
+Import-Module                     Cmdlet    Adds modules to the current session.
+Export-ModuleMember               Cmdlet    Specifies the module members that are exported.
+Get-Module                        Cmdlet    Gets the modules that have been imported or that can be imported into the current session.
+Remove-Module                     Cmdlet    Removes modules from the current session.
+New-ModuleManifest                Cmdlet    Creates a new module manifest.
+Test-ModuleManifest               Cmdlet    Verifies that a module manifest file accurately describes the contents of a module.
+Add-PSSnapin                      Cmdlet    Adds one or more Windows PowerShell snap-ins to the current session.
+Remove-PSSnapin                   Cmdlet    Removes Windows PowerShell snap-ins from the current session.
+Get-PSSnapin                      Cmdlet    Gets the Windows PowerShell snap-ins on the computer.
+Export-Console                    Cmdlet    Exports the names of snap-ins in the current session to a console file.
+Format-List                       Cmdlet    Formats the output as a list of properties in which each property appears on a new line.
+Format-Custom                     Cmdlet    Uses a customized view to format the output.
+Format-Table                      Cmdlet    Formats the output as a table.
+Format-Wide                       Cmdlet    Formats objects as a wide table that displays only one property of each object.
+Out-Null                          Cmdlet    Deletes output instead of sending it to the console.
+Out-Default                       Cmdlet    Sends the output to the default formatter and to the default output cmdlet.
+Out-Host                          Cmdlet    Sends output to the command line.
+Out-File                          Cmdlet    Sends output to a file.
+Out-Printer                       Cmdlet    Sends output to a printer.
+Out-String                        Cmdlet    Sends objects to the host as a series of strings.
+Out-GridView                      Cmdlet    Sends output to an interactive table in a separate window.
+Get-FormatData                    Cmdlet    Gets the formatting data in the current session.
+Export-FormatData                 Cmdlet    Saves formatting data from the current session in a formatting file.
+Register-ObjectEvent              Cmdlet    Subscribes to the events that are generated by a Microsoft .NET Framework object.
+Register-EngineEvent              Cmdlet    Subscribes to events that are generated by the Windows PowerShell engine and by the New-Event c...
+Wait-Event                        Cmdlet    Waits until a particular event is raised before continuing to run.
+Get-Event                         Cmdlet    Gets the events in the event queue.
+Remove-Event                      Cmdlet    Deletes events from the event queue.
+Get-EventSubscriber               Cmdlet    Gets the event subscribers in the current session.
+Unregister-Event                  Cmdlet    Cancels an event subscription.
+New-Event                         Cmdlet    Creates a new event.
+Add-Member                        Cmdlet    Adds a user-defined custom member to an instance of a Windows PowerShell object.
+Add-Type                          Cmdlet    Adds a Microsoft .NET Framework type (a class) to a Windows PowerShell session.
+Compare-Object                    Cmdlet    Compares two sets of objects.
+ConvertTo-Html                    Cmdlet    Converts Microsoft .NET Framework objects into HTML that can be displayed in a Web browser.
+ConvertFrom-StringData            Cmdlet    Converts a string containing one or more key/value pairs to a hash table.
+Export-CSV                        Cmdlet    Converts Microsoft .NET Framework objects into a series of comma-separated value (CSV) variable...
+Import-CSV                        Cmdlet    Converts object properties in a comma-separated value (CSV) file into CSV versions of the origi...
+ConvertTo-CSV                     Cmdlet    Converts Microsoft .NET Framework objects into a series of comma-separated value (CSV) variable...
+ConvertFrom-CSV                   Cmdlet    Converts object properties in comma-separated value (CSV) format into CSV versions of the origi...
+Export-Alias                      Cmdlet    Exports information about currently defined aliases to a file.
+Invoke-Expression                 Cmdlet    Runs commands or expressions on the local computer.
+Get-Alias                         Cmdlet    Gets the aliases for the current session.
+Get-Culture                       Cmdlet    Gets the current culture set in the operating system.
+Get-Date                          Cmdlet    Gets the current date and time.
+Get-Host                          Cmdlet    Gets an object that represents the current host program. And, displays Windows PowerShell versi...
+Get-Member                        Cmdlet    Gets the properties and methods of objects.
+Get-Random                        Cmdlet    Gets a random number, or selects objects randomly from a collection.
+Get-UICulture                     Cmdlet    Gets the current user interface (UI) culture settings in the operating system.
+Get-Unique                        Cmdlet    Returns the unique items from a sorted list.
+Export-PSSession                  Cmdlet    Imports commands from another session and saves them in a Windows PowerShell module.
+Import-PSSession                  Cmdlet    Imports commands from another session into the current session.
+Import-Alias                      Cmdlet    Imports an alias list from a file.
+Import-LocalizedData              Cmdlet    Imports language-specific data into scripts and functions based on the UI culture that is selec...
+Select-String                     Cmdlet    Finds text in strings and files.
+Measure-Object                    Cmdlet    Calculates the numeric properties of objects, and the characters, words, and lines in string ob...
+New-Alias                         Cmdlet    Creates a new alias.
+New-TimeSpan                      Cmdlet    Creates a TimeSpan object.
+Read-Host                         Cmdlet    Reads a line of input from the console.
+Set-Alias                         Cmdlet    Creates or changes an alias (alternate name) for a cmdlet or other command element in the curre...
+Set-Date                          Cmdlet    Changes the system time on the computer to a time that you specify.
+Start-Sleep                       Cmdlet    Suspends the activity in a script or session for the specified period of time.
+Tee-Object                        Cmdlet    Saves command output in a file or variable, and displays it in the console.
+Measure-Command                   Cmdlet    Measures the time it takes to run script blocks and cmdlets.
+Update-List                       Cmdlet    Adds items to and removes items from a property value that contains a collection of objects.
+Update-TypeData                   Cmdlet    Updates the current extended type configuration by reloading the *.types.ps1xml files into memory.
+Update-FormatData                 Cmdlet    Updates the formatting data in the current session.
+Write-Host                        Cmdlet    Writes customized output to a host.
+Write-Progress                    Cmdlet    Displays a progress bar within a Windows PowerShell command window.
+New-Object                        Cmdlet    Creates an instance of a Microsoft .NET Framework or COM object.
+Select-Object                     Cmdlet    Selects specified properties of an object or set of objects. It can also select unique objects ...
+Group-Object                      Cmdlet    Groups objects that contain the same value for specified properties.
+Sort-Object                       Cmdlet    Sorts objects by property values.
+Get-Variable                      Cmdlet    Gets the variables in the current console.
+New-Variable                      Cmdlet    Creates a new variable.
+Set-Variable                      Cmdlet    Sets the value of a variable. Creates the variable if one with the requested name does not exist.
+Remove-Variable                   Cmdlet    Deletes a variable and its value.
+Clear-Variable                    Cmdlet    Deletes the value of a variable.
+Export-Clixml                     Cmdlet    Creates an XML-based representation of an object or objects and stores it in a file.
+Import-Clixml                     Cmdlet    Imports a CLIXML file and creates corresponding objects within Windows PowerShell.
+ConvertTo-XML                     Cmdlet    Creates an XML-based representation of an object.
+Select-XML                        Cmdlet    Finds text in an XML string or document.
+Write-Debug                       Cmdlet    Writes a debug message to the console.
+Write-Verbose                     Cmdlet    Writes text to the verbose message stream.
+Write-Warning                     Cmdlet    Writes a warning message.
+Write-Error                       Cmdlet    Writes an object to the error stream.
+Write-Output                      Cmdlet    Sends the specified objects to the next command in the pipeline. If the command is the last com...
+Set-PSBreakpoint                  Cmdlet    Sets a breakpoint on a line, command, or variable.
+Get-PSBreakpoint                  Cmdlet    Gets the breakpoints that are set in the current session.
+Remove-PSBreakpoint               Cmdlet    Deletes breakpoints from the current console.
+Enable-PSBreakpoint               Cmdlet    Enables the breakpoints in the current console.
+Disable-PSBreakpoint              Cmdlet    Disables the breakpoints in the current console.
+Get-PSCallStack                   Cmdlet    Displays the current call stack.
+Send-MailMessage                  Cmdlet    Sends an e-mail message.
+Get-TraceSource                   Cmdlet    Gets the Windows PowerShell components that are instrumented for tracing.
+Set-TraceSource                   Cmdlet    Configures, starts, and stops a trace of Windows PowerShell components.
+Trace-Command                     Cmdlet    Configures and starts a trace of the specified expression or command.
+Start-Transcript                  Cmdlet    Creates a record of all or part of a Windows PowerShell session in a text file.
+Stop-Transcript                   Cmdlet    Stops a transcript.
+Add-Content                       Cmdlet    Adds content to the specified items, such as adding words to a file.
+Clear-Content                     Cmdlet    Deletes the contents of an item, such as deleting the text from a file, but does not delete the...
+Clear-ItemProperty                Cmdlet    Deletes the value of a property but does not delete the property.
+Join-Path                         Cmdlet    Combines a path and a child path into a single path. The provider supplies the path delimiters.
+Convert-Path                      Cmdlet    Converts a path from a Windows PowerShell path to a Windows PowerShell provider path.
+Copy-ItemProperty                 Cmdlet    Copies a property and value from a specified location to another location.
+Get-EventLog                      Cmdlet    Gets the events in an event log, or a list of the event logs, on the local or remote computers.
+Clear-EventLog                    Cmdlet    Deletes all entries from specified event logs on the local or remote computers.
+Write-EventLog                    Cmdlet    Writes an event to an event log.
+Limit-EventLog                    Cmdlet    Sets the event log properties that limit the size of the event log and the age of its entries.
+Show-EventLog                     Cmdlet    Displays the event logs of the local or a remote computer in Event Viewer.
+New-EventLog                      Cmdlet    Creates a new event log and a new event source on a local or remote computer.
+Remove-EventLog                   Cmdlet    Deletes an event log or unregisters an event source.
+Get-ChildItem                     Cmdlet    Gets the items and child items in one or more specified locations.
+Get-Content                       Cmdlet    Gets the content of the item at the specified location.
+Get-ItemProperty                  Cmdlet    Gets the properties of a specified item.
+Get-WmiObject                     Cmdlet    Gets instances of Windows Management Instrumentation (WMI) classes or information about the ava...
+Invoke-WmiMethod                  Cmdlet    Calls Windows Management Instrumentation (WMI) methods.
+Move-ItemProperty                 Cmdlet    Moves a property from one location to another.
+Get-Location                      Cmdlet    Gets information about the current working location.
+Set-Location                      Cmdlet    Sets the current working location to a specified location.
+Push-Location                     Cmdlet    Adds the current location to the top of a list of locations (a "stack").
+Pop-Location                      Cmdlet    Changes the current location to the location most recently pushed onto the stack. You can pop t...
+New-PSDrive                       Cmdlet    Creates a Windows PowerShell drive in the current session.
+Remove-PSDrive                    Cmdlet    Removes a Windows PowerShell drive from its location.
+Get-PSDrive                       Cmdlet    Gets the Windows PowerShell drives in the current session.
+Get-Item                          Cmdlet    Gets the item at the specified location.
+New-Item                          Cmdlet    Creates a new item.
+Set-Item                          Cmdlet    Changes the value of an item to the value specified in the command.
+Remove-Item                       Cmdlet    Deletes the specified items.
+Move-Item                         Cmdlet    Moves an item from one location to another.
+Rename-Item                       Cmdlet    Renames an item in a Windows PowerShell provider namespace.
+Copy-Item                         Cmdlet    Copies an item from one location to another within a namespace.
+Clear-Item                        Cmdlet    Deletes the contents of an item, but does not delete the item.
+Invoke-Item                       Cmdlet    Performs the default action on the specified item.
+Get-PSProvider                    Cmdlet    Gets information about the specified Windows PowerShell provider.
+New-ItemProperty                  Cmdlet    Creates a new property for an item and sets its value. For example, you can use New-ItemPropert...
+Split-Path                        Cmdlet    Returns the specified part of a path.
+Test-Path                         Cmdlet    Determines whether all elements of a path exist.
+Get-Process                       Cmdlet    Gets the processes that are running on the local computer or a remote computer.
+Stop-Process                      Cmdlet    Stops one or more running processes.
+Wait-Process                      Cmdlet    Waits for the processes to be stopped before accepting more input.
+Debug-Process                     Cmdlet    Debugs one or more processes running on the local computer.
+Start-Process                     Cmdlet    Starts one or more processes on the local computer.
+Remove-ItemProperty               Cmdlet    Deletes the property and its value from an item.
+Remove-WmiObject                  Cmdlet    Deletes an instance of an existing Windows Management Instrumentation (WMI) class.
+Rename-ItemProperty               Cmdlet    Renames a property of an item.
+Register-WmiEvent                 Cmdlet    Subscribes to a Windows Management Instrumentation (WMI) event.
+Resolve-Path                      Cmdlet    Resolves the wildcard characters in a path, and displays the path contents.
+Get-Service                       Cmdlet    Gets the services on a local or remote computer.
+Stop-Service                      Cmdlet    Stops one or more running services.
+Start-Service                     Cmdlet    Starts one or more stopped services.
+Suspend-Service                   Cmdlet    Suspends (pauses) one or more running services.
+Resume-Service                    Cmdlet    Resumes one or more suspended (paused) services.
+Restart-Service                   Cmdlet    Stops and then starts one or more services.
+Set-Service                       Cmdlet    Starts, stops, and suspends a service, and changes its properties.
+New-Service                       Cmdlet    Creates a new Windows service.
+Set-Content                       Cmdlet    Writes or replaces the content in an item with new content.
+Set-ItemProperty                  Cmdlet    Creates or changes the value of a property of an item.
+Set-WmiInstance                   Cmdlet    Creates or updates an instance of an existing Windows Management Instrumentation (WMI) class.
+Get-Transaction                   Cmdlet    Gets the current (active) transaction.
+Start-Transaction                 Cmdlet    Starts a transaction.
+Complete-Transaction              Cmdlet    Commits the active transaction.
+Undo-Transaction                  Cmdlet    Rolls back the active transaction.
+Use-Transaction                   Cmdlet    Adds the script block to the active transaction.
+New-WebServiceProxy               Cmdlet    Creates a Web service proxy object that lets you use and manage the Web service in Windows Powe...
+Get-HotFix                        Cmdlet    Gets the hotfixes that have been applied to the local and remote computers.
+Test-Connection                   Cmdlet    Sends ICMP echo request packets ("pings") to one or more computers.
+Enable-ComputerRestore            Cmdlet    Enables the System Restore feature on the specified file system drive.
+Disable-ComputerRestore           Cmdlet    Disables the System Restore feature on the specified file system drive.
+Checkpoint-Computer               Cmdlet    Creates a system restore point on the local computer.
+Get-ComputerRestorePoint          Cmdlet    Gets the restore points on the local computer.
+Restart-Computer                  Cmdlet    Restarts ("reboots") the operating system on local and remote computers.
+Stop-Computer                     Cmdlet    Stops (shuts down) local and remote computers.
+Restore-Computer                  Cmdlet    Starts a system restore on the local computer.
+Add-Computer                      Cmdlet    Add the local computer to a domain or workgroup.
+Remove-Computer                   Cmdlet    Remove the local computer from a workgroup or domain.
+Test-ComputerSecureChannel        Cmdlet    Tests and repairs the secure channel between the local computer and its domain.
+Reset-ComputerMachinePassword     Cmdlet    Resets the machine account password for the computer.
+Get-Acl                           Cmdlet    Gets the security descriptor for a resource, such as a file or registry key.
+Set-Acl                           Cmdlet    Changes the security descriptor of a specified resource, such as a file or a registry key.
+Get-PfxCertificate                Cmdlet    Gets information about .pfx certificate files on the computer.
+Get-Credential                    Cmdlet    Gets a credential object based on a user name and password.
+Get-ExecutionPolicy               Cmdlet    Gets the execution policies for the current session.
+Set-ExecutionPolicy               Cmdlet    Changes the user preference for the Windows PowerShell execution policy.
+Get-AuthenticodeSignature         Cmdlet    Gets information about the Authenticode signature in a file.
+Set-AuthenticodeSignature         Cmdlet    Adds an Authenticode signature to a Windows PowerShell script or other file.
+ConvertFrom-SecureString          Cmdlet    Converts a secure string into an encrypted standard string.
+ConvertTo-SecureString            Cmdlet    Converts encrypted standard strings to secure strings. It can also convert plain text to secure...
+WSMan                             Provider  Provides access to Web Services for Management (WS-Management) configuration information.
+Alias                             Provider  Provides access to the Windows PowerShell aliases and the values that they represent.
+Environment                       Provider  Provides access to the Windows environment variables.
+FileSystem                        Provider  Provides access to files and directories.
+Function                          Provider  Provides access to the functions defined in Windows PowerShell.
+Registry                          Provider  Provides access to the system registry keys and values from Windows PowerShell.
+Variable                          Provider  Provides access to the Windows PowerShell variables and to their values.
+Certificate                       Provider  Provides access to X.509 certificate stores and certificates from within Windows PowerShell.
+about_aliases                     HelpFile  Describes how to use alternate names for cmdlets and commands in Windows
+about_Arithmetic_Operators        HelpFile  Describes the operators that perform arithmetic in Windows PowerShell.
+about_arrays                      HelpFile  Describes a compact data structure for storing data elements.
+about_Assignment_Operators        HelpFile  Describes how to use operators to assign values to variables.
+about_Automatic_Variables         HelpFile  Describes variables that store state information for Windows PowerShell.
+about_Break                       HelpFile  Describes a statement you can use to immediately exit Foreach, For, While,
+about_command_precedence          HelpFile  Describes how Windows PowerShell determines which command to run.
+about_Command_Syntax              HelpFile  Describes the notation used for Windows PowerShell syntax in Help.
+about_Comment_Based_Help          HelpFile  Describes how to write comment-based Help topics for functions and scripts.
+about_CommonParameters            HelpFile  Describes the parameters that can be used with any cmdlet.
+about_Comparison_Operators        HelpFile  Describes the operators that compare values in Windows PowerShell.
+about_Continue                    HelpFile  Describes how the Continue statement immediately returns the program flow
+about_Core_Commands               HelpFile  Lists the cmdlets that are designed for use with Windows PowerShell
+about_data_sections               HelpFile  Explains Data sections, which isolate text strings and other read-only
+about_debuggers                   HelpFile  Describes the Windows PowerShell debugger.
+about_do                          HelpFile  Runs a statement list one or more times, subject to a While or Until
+about_environment_variables       HelpFile  Describes how to access Windows environment variables in Windows
+about_escape_characters           HelpFile  Introduces the escape character in Windows PowerShell and explains
+about_eventlogs                   HelpFile  Windows PowerShell creates a Windows event log that is
+about_execution_policies          HelpFile  Describes the Windows PowerShell execution policies and explains
+about_For                         HelpFile  Describes a language command you can use to run statements based on a
+about_Foreach                     HelpFile  Describes a language command you can use to traverse all the items in a
+about_format.ps1xml               HelpFile  The Format.ps1xml files in Windows PowerShell define the default display
+about_functions                   HelpFile  Describes how to create and use functions in Windows PowerShell.
+about_functions_advanced          HelpFile  Introduces advanced functions that act similar to cmdlets.
+about_functions_advanced_methods  HelpFile  Describes how functions that specify the CmdletBinding attribute can use
+about_functions_advanced_param... HelpFile  Explains how to add static and dynamic parameters to functions that declare
+about_functions_cmdletbindinga... HelpFile  Describes an attribute that declares a function that acts similar to a
+about_hash_tables                 HelpFile  Describes how to create, use, and sort hash tables in Windows PowerShell.
+about_History                     HelpFile  Describes how to retrieve and run commands in the command history.
+about_If                          HelpFile  Describes a language command you can use to run statement lists based
+about_jobs                        HelpFile  Provides information about how Windows PowerShell background jobs run a
+about_job_details                 HelpFile  Provides details about background jobs on local and remote computers.
+about_join                        HelpFile  Describes how the join operator (-join) combines multiple strings into a
+about_Language_Keywords           HelpFile  Describes the keywords in the Windows PowerShell scripting language.
+about_Line_Editing                HelpFile  Describes how to edit commands at the Windows PowerShell command prompt.
+about_locations                   HelpFile  Describes how to access items from the working location in Windows
+about_logical_operators           HelpFile  Describes the operators that connect statements in Windows PowerShell.
+about_methods                     HelpFile  Describes how to use methods to perform actions on objects in Windows
+about_modules                     HelpFile  Explains how to install, import, and use Windows PowerShell modules.
+about_objects                     HelpFile  Provides essential information about objects in Windows PowerShell.
+about_operators                   HelpFile  Describes the operators that are supported by Windows PowerShell.
+about_parameters                  HelpFile  Describes how to work with cmdlet parameters in Windows PowerShell.
+about_Parsing                     HelpFile  Describes how Windows PowerShell parses commands.
+about_Path_Syntax                 HelpFile  Describes the full and relative path name formats in Windows PowerShell.
+about_pipelines                   HelpFile  Combining commands into pipelines in the Windows PowerShell
+about_preference_variables        HelpFile  Variables that customize the behavior of Windows PowerShell
+about_profiles                    HelpFile  Describes how to create and use a Windows PowerShell profile.
+about_prompts                     HelpFile  Describes the Prompt function and demonstrates how to create a custom
+about_properties                  HelpFile  Describes how to use object properties in Windows PowerShell.
+about_providers                   HelpFile  Describes how Windows PowerShell providers provide access to data and
+about_pssessions                  HelpFile  Describes Windows PowerShell sessions (PSSessions) and explains how to
+about_pssession_details           HelpFile  Provides detailed information about Windows PowerShell sessions and the
+about_PSSnapins                   HelpFile  Describes Windows PowerShell snap-ins and shows how to use and manage them.
+about_Quoting_Rules               HelpFile  Describes rules for using single and double quotation marks
+about_Redirection                 HelpFile  Describes how to redirect output from Windows PowerShell to text files.
+about_Ref                         HelpFile  Describes how to create and use a reference variable type.
+about_regular_expressions         HelpFile  Describes regular expressions in Windows PowerShell.
+about_remote                      HelpFile  Describes how to run remote commands in Windows PowerShell.
+about_remote_FAQ                  HelpFile  Contains questions and answers about running remote commands
+about_remote_jobs                 HelpFile  Describes how to run background jobs on remote computers.
+about_remote_output               HelpFile  Describes how to interpret and format the output of remote commands.
+about_remote_requirements         HelpFile  Describes the system requirements and configuration requirements for
+about_remote_troubleshooting      HelpFile  Describes how to troubleshoot remote operations in Windows PowerShell.
+about_requires                    HelpFile  Prevents a script from running by requiring the specified snap-ins and
+about_Reserved_Words              HelpFile  Lists the reserved words that cannot be used as identifiers because they
+about_Return                      HelpFile  Exits the current scope, which can be a function, script, or script block.
+about_scopes                      HelpFile  Explains the concept of scope in Windows PowerShell and shows how to set
+about_scripts                     HelpFile  Describes how to write and run scripts in Windows PowerShell.
+about_script_blocks               HelpFile  Defines what a script block is and explains how to use script blocks in
+about_script_internationalization HelpFile  Describes the script internationalization features of Windows PowerShell 2.0
+about_Session_Configurations      HelpFile  Describes session configurations, which determine the users who can
+about_Signing                     HelpFile  Explains to how sign scripts so that they comply with the Windows
+about_Special_Characters          HelpFile  Describes the special characters that you can use to control how
+about_split                       HelpFile  Explains how to use the split operator to split one or more strings into
+about_Switch                      HelpFile  Explains how to use a switch to handle multiple If statements.
+about_Throw                       HelpFile  Describes the Throw keyword, which generates a terminating error.
+about_transactions                HelpFile  Describes how to manage transacted operations in Windows PowerShell.
+about_trap                        HelpFile  Describes a keyword that handles a terminating error.
+about_try_catch_finally           HelpFile  Describes how to use the Try, Catch, and Finally blocks to handle
+about_types.ps1xml                HelpFile  Explains how the Types.ps1xml files let you extend the Microsoft .NET
+about_type_operators              HelpFile  Describes the operators that work with Microsoft .NET Framework types.
+about_Variables                   HelpFile  Describes how variables store values that can be used in Windows
+about_While                       HelpFile  Describes a language statement that you can use to run a command block
+about_wildcards                   HelpFile  Describes how to use wildcard characters in Windows PowerShell.
+about_Windows_PowerShell_2.0      HelpFile  Describes the new features that are included in Windows PowerShell 2.0.
+about_Windows_PowerShell_ISE      HelpFile  Describes the features and system requirements of Windows PowerShell
+about_WMI_Cmdlets                 HelpFile  Provides background information about Windows Management Instrumentation
+about_WS-Management_Cmdlets       HelpFile  Provides an overview of Web Services for Management (WS-Management) as
+default                           HelpFile  Displays help about Windows PowerShell cmdlets and concepts.
