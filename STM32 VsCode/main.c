@@ -113,7 +113,7 @@ int main (void)
 {
 	clock_Init();
 	led_Init();
-	led_Control(0);
+	led_Control(1);
 	while (1)
 	{
 
